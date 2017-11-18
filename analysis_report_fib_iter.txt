@@ -1,0 +1,33 @@
+******************************************************************
+                       FIBONACCI ITERATION
+******************************************************************
+
+Fib of 10 is : 55
+Number of instructions executed : 88
+Data Processing instructions : 62
+Memory instructions : 2
+Branch instructions : 24
+Registers read : r0, r1, r2, r3, r4, r13, r14, r15,
+Registers written : r0, r1, r2, r3, r4, r13, r15,
+Number of branches taken : 12
+Number of branches not taken : 12
+---------- Performance measurement - Native execution ------------
+Total time taken (in seconds) : 0.000000
+---------- Performance measurement - Emulated execution ----------
+Total time taken (in seconds) : 0.650000
+__________________________________________________________________
+
+Fib of 19 is : 4181
+Number of instructions executed : 151
+Data Processing instructions : 107
+Memory instructions : 2
+Branch instructions : 42
+Registers read : r0, r1, r2, r3, r4, r13, r14, r15,
+Registers written : r0, r1, r2, r3, r4, r13, r15,
+Number of branches taken : 21
+Number of branches not taken : 21
+---------- Performance measurement - Native execution ------------
+Total time taken (in seconds) : 0.000000
+---------- Performance measurement - Emulated execution ----------
+Total time taken (in seconds) : 0.930000
+__________________________________________________________________

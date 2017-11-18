@@ -1,0 +1,33 @@
+******************************************************************
+                    FIBONACCI RECURSION
+******************************************************************
+
+Fib of 10 is : 55
+Number of instructions executed : 2031
+Data Processing instructions : 795
+Memory instructions : 706
+Branch instructions : 530
+Registers read : r0, r1, r13, r14, r15,
+Registers written : r0, r1, r13, r14, r15,
+Number of branches taken : 442
+Number of branches not taken : 88
+---------- Performance measurement - Native execution ------------
+Total time taken (in seconds) : 0.000000
+---------- Performance measurement - Emulated execution ----------
+Total time taken (in seconds) : 0.860000
+__________________________________________________________________
+
+Fib of 19 is : 4181
+Number of instructions executed : 155579
+Data Processing instructions : 60879
+Memory instructions : 54114
+Branch instructions : 40586
+Registers read : r0, r1, r13, r14, r15,
+Registers written : r0, r1, r13, r14, r15,
+Number of branches taken : 33822
+Number of branches not taken : 6764
+---------- Performance measurement - Native execution ------------
+Total time taken (in seconds) : 0.290000
+---------- Performance measurement - Emulated execution ----------
+Total time taken (in seconds) : 63.000000
+__________________________________________________________________

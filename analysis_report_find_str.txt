@@ -1,0 +1,48 @@
+******************************************************************
+                             FIND STRING
+******************************************************************
+
+find_str_a('helloworldstring', 'world')  : 5
+Number of instructions executed : 100
+Data Processing instructions : 45
+Memory instructions : 26
+Branch instructions : 29
+Registers read : r0, r1, r3, r4, r5, r6, r9, r12, r13, r14, r15,
+Registers written : r0, r2, r3, r4, r5, r6, r9, r12, r13, r15,
+Number of branches taken : 13
+Number of branches not taken : 16
+---------- Performance measurement - Native execution ------------
+Total time taken (in seconds) : 0.000000
+---------- Performance measurement - Emulated execution ----------
+Total time taken (in seconds) : 0.680000
+___________________________________________________________________
+
+find_str_a('helloworldstring', 'asdf')  : -1
+Number of instructions executed : 187
+Data Processing instructions : 82
+Memory instructions : 46
+Branch instructions : 59
+Registers read : r0, r1, r4, r5, r6, r9, r12, r13, r14, r15,
+Registers written : r0, r2, r3, r4, r5, r6, r9, r12, r13, r15,
+Number of branches taken : 23
+Number of branches not taken : 36
+---------- Performance measurement - Native execution ------------
+Total time taken (in seconds) : 0.010000
+---------- Performance measurement - Emulated execution ----------
+Total time taken (in seconds) : 1.030000
+___________________________________________________________________
+
+find_str_a('helloworldstring', 'string')  : 12
+Number of instructions executed : 168
+Data Processing instructions : 75
+Memory instructions : 41
+Branch instructions : 52
+Registers read : r0, r1, r3, r4, r5, r6, r9, r12, r13, r14, r15,
+Registers written : r0, r2, r3, r4, r5, r6, r9, r12, r13, r15,
+Number of branches taken : 21
+Number of branches not taken : 31
+---------- Performance measurement - Native execution ------------
+Total time taken (in seconds) : 0.010000
+---------- Performance measurement - Emulated execution ----------
+Total time taken (in seconds) : 0.960000
+___________________________________________________________________

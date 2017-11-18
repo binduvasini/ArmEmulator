@@ -1,0 +1,66 @@
+******************************************************************
+                             FIND MAX
+******************************************************************
+------------------ Array of positive numbers ---------------------
+Array : {1, 2, 3, 10, 4, 5} :: Max is : 10
+Number of instructions executed : 58
+Data Processing instructions : 35
+Memory instructions : 9
+Branch instructions : 14
+Registers read : r0, r1, r2, r3, r4, r13, r14, r15,
+Registers written : r0, r2, r3, r4, r13, r15,
+Number of branches taken : 8
+Number of branches not taken : 6
+---------- Performance measurement - Native execution ------------
+Total time taken (in seconds) : 0.000000
+---------- Performance measurement - Emulated execution ----------
+Total time taken (in seconds) : 0.520000
+__________________________________________________________________
+
+------------------- Array of negative numbers --------------------
+Array : {-1, -2, -3, -4, -5} :: Max is : -1
+Number of instructions executed : 50
+Data Processing instructions : 30
+Memory instructions : 8
+Branch instructions : 12
+Registers read : r0, r1, r2, r3, r4, r13, r14, r15,
+Registers written : r0, r2, r3, r4, r13, r15,
+Number of branches taken : 7
+Number of branches not taken : 5
+---------- Performance measurement - Native execution ------------
+Total time taken (in seconds) : 0.000000
+---------- Performance measurement - Emulated execution ----------
+Total time taken (in seconds) : 0.480000
+__________________________________________________________________
+
+------------------------- Array of zeros -------------------------
+Array : {0, 0, 0, 0} :: Max is : 0
+Number of instructions executed : 42
+Data Processing instructions : 25
+Memory instructions : 7
+Branch instructions : 10
+Registers read : r0, r1, r2, r3, r4, r13, r14, r15,
+Registers written : r0, r2, r3, r4, r13, r15,
+Number of branches taken : 6
+Number of branches not taken : 4
+---------- Performance measurement - Native execution ------------
+Total time taken (in seconds) : 0.000000
+---------- Performance measurement - Emulated execution ----------
+Total time taken (in seconds) : 0.440000
+__________________________________________________________________
+
+------------------- Array of thousand elements -------------------
+Array of elements from 0 to 999 : Max is : 999
+Number of instructions executed : 8010
+Data Processing instructions : 5005
+Memory instructions : 1003
+Branch instructions : 2002
+Registers read : r0, r1, r2, r3, r4, r13, r14, r15,
+Registers written : r0, r2, r3, r4, r13, r15,
+Number of branches taken : 1002
+Number of branches not taken : 1000
+---------- Performance measurement - Native execution ------------
+Total time taken (in seconds) : 0.080000
+---------- Performance measurement - Emulated execution ----------
+Total time taken (in seconds) : 35.060000
+__________________________________________________________________
